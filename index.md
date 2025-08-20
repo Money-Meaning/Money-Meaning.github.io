@@ -47,10 +47,13 @@ Welcome to *Money Talks*, where we simplify finance and economics so you can und
   <h3>Get new posts by email</h3>
   <p>Subscribe to a short weekly newsletter: quick explainers, charts, and links.</p>
   <!-- Replace the action with your newsletters provider form -->
-  <form action="https://example.com/subscribe" method="post" class="subscribe-form">
-    <input type="email" name="email" placeholder="you@example.com" required />
-    <button type="submit">Subscribe</button>
+  <form action="https://example.com/subscribe" method="post" class="subscribe-form" style="display:flex; gap:0.5rem; align-items:center; flex-wrap:wrap;">
+    <input type="email" name="email" placeholder="you@example.com" required style="flex:1; min-width:220px; padding:0.5rem;" />
+    <button type="submit" class="btn primary" style="padding:0.5rem 1rem;">Subscribe</button>
+    <!-- Secondary button linking to a newsletters directory / multi-subscribe page -->
+    <a href="/newsletters" class="btn outline" style="margin-left:0.5rem; padding:0.5rem 1rem;">Subscribe to more newsletters</a>
   </form>
+  <p style="margin-top:0.75rem;">Want curated topic lists or multiple options? Visit the newsletters page to pick the ones you want.</p>
 </section>
 
 <!-- Small site notes -->
