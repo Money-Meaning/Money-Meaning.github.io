@@ -7,7 +7,7 @@ author: "Your Name"
 image: "/assets/images/author.jpg"
 ---
 
-Hi 👋 I’m [Your Name].  
+Hi 👋 I’m Jas.  
 
 I write about:  
 - 📈 Market trends  
@@ -18,7 +18,7 @@ I write about:
 <section class="author-bio" aria-labelledby="about-heading">
   <h2 id="about-heading">About the author</h2>
   <div class="author-meta">
-    <img src="{{ site.baseurl }}{{ page.image }}" alt="[Your Name]" class="author-avatar" />
+    <img src="{{ site.baseurl }}{{ page.image }}" alt="Jas" class="author-avatar" />
     <div>
       <p>I explain finance and economics in plain language — practical explainers on policy, markets, and decisions that affect your money. Previously: [optional short bio or roles].</p>
 
