@@ -1,0 +1,82 @@
+title: "Money Talks: An Economics Blog"
+description: "Breaking down finance, economics, and markets into simple insights."
+theme: jekyll-theme-cayman
+author: "Your Name"
+
+# URL and baseurl
+# - If deploying to GitHub Pages at https://<username>.github.io, set url: "https://<username>.github.io" and leave baseurl: ""
+# - If deploying to a project site (e.g. /economic-blog), set baseurl: "/economic-blog"
+url: ""
+baseurl: ""
+
+# Plugins
+plugins:
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Permalinks and pagination
+permalink: /:categories/:year/:month/:day/:title/
+paginate: 6
+paginate_path: "/page:num/"
+
+# Markdown processor
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  parse_block_html: true
+  toc_levels: 1..6
+
+# Exclude files/dirs from the build
+exclude:
+  - "node_modules"
+  - "vendor"
+  - "Gemfile"
+  - "Gemfile.lock"
+
+# Defaults for posts and pages
+defaults:
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+      author: "Your Name"
+      comments: true
+      read_time: true
+  - scope:
+      path: ""
+      type: "pages"
+    values:
+      layout: "page"
+
+# Optional site-wide metadata and social links (edit as needed)
+social:
+  twitter: "your_twitter"
+  linkedin: "your_linkedin"
+  github: "Money-Meaning"
+
+# Analytics placeholder (replace with your tracking ID or remove)
+google_analytics: "UA-XXXXXXXX-X"
+
+# Theme-specific / presentation helpers
+show_date: true
+show_author: true
+default_category: "finance"
+categories:
+  - finance
+  - markets
+  - macro
+  - policy
+  - data
+  - tutorials
+tags:
+  - economics
+  - investing
+  - central-banks
+  - personal-finance
+
+# Helpful for local development
+future: true
+lsi: false
+safe: false
