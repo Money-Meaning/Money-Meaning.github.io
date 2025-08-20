@@ -6,7 +6,7 @@ author: "Your Name"
 # URL and baseurl
 # - If deploying to GitHub Pages at https://<username>.github.io, set url: "https://<username>.github.io" and leave baseurl: ""
 # - If deploying to a project site (e.g. /economic-blog), set baseurl: "/economic-blog"
-url: ""
+url: "https://money-meaning.github.io/"
 baseurl: ""
 
 # Plugins
