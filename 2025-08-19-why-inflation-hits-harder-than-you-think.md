@@ -1,4 +1,4 @@
---
+----
 layout: post
 title: "Why Inflation Hits Harder Than You Think"
 date: 2025-08-19
@@ -6,7 +6,7 @@ tags: [inflation, consumers, personal-finance, economy]
 description: "How inflation reduces purchasing power, who is hit hardest, why CPI understates the pain for many people, and practical steps consumers can take."
 author: "Money-Meaning"
 image: "/assets/images/inflation-impact.jpg"
---
+----
 
 Inflation — a sustained rise in the average price level — is usually reported as a single headline number. But for the average household, inflation rarely feels like "one number." It feels personal: groceries cost more, rent climbs, interest on credit cards jumps. This post breaks down why inflation often hits harder than the headlines suggest, who is most affected, and what consumers can do to protect themselves.
 
