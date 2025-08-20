@@ -1,7 +1,0 @@
-title: "Money Talks: An Economics Blog"
-description: "Breaking down finance, economics, and markets into simple insights."
-theme: minima
-author: "Your Name"
-plugins:
-  - jekyll-feed
-  - jekyll-seo-tag
